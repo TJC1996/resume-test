@@ -1,2 +1,3 @@
 # resume-test
-resume for job hunting
+Welcome! This is my first Github test project.
+I am excited to continue learning
