@@ -1,4 +1,4 @@
-{
+*{
 	padding: 0;
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
@@ -7,7 +7,7 @@
 .hero{
 	height: 50vh;
 	width: 100%;
-	background-image: url(/Users/tonyclark/Desktop/resume.editor/img/snow.png);
+	background-image: url(/Users/tonyclark/Desktop/resume.index/resume.editor/img/snow.png);
 	background-size: cover;
 	background-position: center;
 }
@@ -61,7 +61,7 @@ nav ul li a:hover{
 }
 .content{
 	position: absolute;
-	top: 50%;
+	top: 35%;
 	left:18%;
 	transform: translateY(-50%);
 	font-family: 'Fredoka', sans-serif;
@@ -337,4 +337,5 @@ footer p:nth-child(2){
 .end{
 	position: absolute;
 	color:#f9004d;
-	bottom: 1px;
+	bottom: 5px;
+}
