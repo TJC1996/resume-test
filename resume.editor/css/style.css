@@ -9,7 +9,7 @@ body{
 .hero{
 	height: 65vh;
 	width: 100%;
-	background-image: url(/Users/tonyclark/Desktop/resume.index/resume.editor/img/snow.png);
+	background-image: url(./snow.png);
 	background-size: cover;
 	background-position: center;
 
