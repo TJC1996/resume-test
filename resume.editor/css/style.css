@@ -1,17 +1,20 @@
-*{
-	padding: 0;
-	margin: 0;
-	font-family: 'Josefin Sans', sans-serif;
-	box-sizing: border-box;
+body{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 2500px;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
 }
 .hero{
-	height: 75vh;
+	height: 65vh;
 	width: 100%;
 	background-image: url(/Users/tonyclark/Desktop/resume.index/resume.editor/img/snow.png);
 	background-size: cover;
 	background-position: center;
 
 }
+
 nav{
 	display: flex;
 	align-items: center;
@@ -66,20 +69,20 @@ nav ul li a:hover{
 .content{
 	position: absolute;
 	top: 60%;
-	right:10%;
+	right:20%;
 	transform: translateY(-50%);
 	font-family: 'Fredoka', sans-serif;
 }
 .content2{
 	top: 60%;
-	left:39%;
+	left: 42%;
 	position: absolute;
 	transform: translateY(-50%);
 	
 }
 .content3{
 	top:60%;
-	left:10%;
+	left:23%;
 	position: absolute;
 	transform:translateY(-50%) ;
 }
