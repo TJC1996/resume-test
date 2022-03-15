@@ -1,18 +1,17 @@
 body{
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0;
+	padding: 0;
 	width: 100%;
-	max-width: 2500px;
-	padding-left: 2.275%;
-	padding-right: 2.275%;
+	max-width: 100%;
+	height: 100vh;
 }
 .hero{
-	height: 65vh;
+	height: 100vh;
 	width: 100%;
 	background-image: url(/Users/tonyclark/Desktop/resume.index/resume.editor/img/snow.png);
 	background-size: cover;
 	background-position: center;
-
+	
 }
 
 nav{
@@ -24,6 +23,16 @@ nav{
 	padding-right: 10%;
 	
 }
+.hero .row {
+	display: flex;
+	
+	
+  }
+  
+ .hero .column {
+	flex: 33.33%;
+	padding: 50px;
+  }
 .logo{
 	color: rgb(0, 0, 0);
 	font-size: 50px;
@@ -69,22 +78,25 @@ nav ul li a:hover{
 .content{
 	position: absolute;
 	top: 60%;
-	right:20%;
+	
 	transform: translateY(-50%);
 	font-family: 'Fredoka', sans-serif;
+	display: flex;
 }
 .content2{
 	top: 60%;
-	left: 42%;
+	
 	position: absolute;
 	transform: translateY(-50%);
+	display: flex;
 	
 }
 .content3{
 	top:60%;
-	left:23%;
+	
 	position: absolute;
 	transform:translateY(-50%) ;
+	display: flex;
 }
 h1{
 	color: rgb(0, 0, 0);
@@ -101,8 +113,8 @@ h4{
 	letter-spacing: 2px;
 	font-size: 20px;
 }
-.newslatter form{
-	width: 380px;
+.newslatter .form{
+	max-width: 380px;
 	max-width: 100%;
 	position: relative;
 }
@@ -191,6 +203,11 @@ button:hover{
 	background: #101010;
 	width: 100%;
 	padding: 100px 0px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+	position: flex;
 }
 .title h2{
 	color: white;
@@ -198,6 +215,7 @@ button:hover{
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;
+	position: relative;
 }
 .title p{
 	color: white;
@@ -205,6 +223,7 @@ button:hover{
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;
+	position: relative;
 }
 .box{
 	display: flex;
@@ -260,12 +279,7 @@ h5{
 	font-size: 23px;
 	margin-bottom: 15px;
 }
-.pra p{
-	color: #fcfc;
-	font-size: 16px;
-	line-height: 27px;
-	margin-bottom: 25px;
-}
+
 .card .button{
 	background-color:#f9004d;
 	color: white;
