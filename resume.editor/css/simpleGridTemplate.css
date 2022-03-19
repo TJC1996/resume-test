@@ -27,9 +27,25 @@ header {
 	background-color: #0A2239;
 	border-bottom: 1px solid #353635;
 }
+.clock{
+	background-color: #FFFFFF;
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	margin-left: 50%;
+}
+.clock-time, .clock-ampm {
+	font-size: 20px;
+	color: #353635;
+}
+.clock-time{
+	font-size:  30px;
+}
 .music { 
 	padding-top: 1%;
-	padding-left: 40%;
+	/*padding-left: 40%; */
+	margin-left: 41%;
 }
 .logo {
 	color: #fff;
@@ -43,7 +59,7 @@ header {
 	font-size: 40px;
 }
 .hero_header {
-	color: #FFFFFF;
+	color: #1D84B5;
 	text-align: center;
 	margin: 0;
 	letter-spacing: 4px;
@@ -97,7 +113,7 @@ header {
 }
 .gallery .thumbnail p {
 	margin: 0;
-	color: #52BAD5;
+	color: #FFFFFF;
 	text-align: center;
 	padding-left: 20px;
 }
@@ -244,7 +260,7 @@ footer {
 	width: 50%;
 }
 .gallery .thumbnail .tag {
-	color: #52BAD5;
+	color: #FFFFFF;
 	padding-bottom: 4px;
 	padding-top: 4px;
 	text-align: center;
@@ -335,7 +351,7 @@ footer {
 }
 
 /* Small Desktops */
-@media (min-width: 768px) and (max-width: 1096px) {
+@media (min-width : 407px ) and ( max-width : 1096px ){
 .text_column {
 	width: 100%;
 }
