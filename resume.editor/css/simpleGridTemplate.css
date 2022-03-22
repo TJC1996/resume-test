@@ -28,16 +28,19 @@ header {
 	border-bottom: 1px solid #353635;
 }
 .clock{
-	background-color: #FFFFFF;
-	width: 100px;
+	background-color: #825B48;
+	border: 5px solid #000000;
+	border-width: 2px;
+	width: 315px;
 	padding: 10px;
 	text-align: center;
 	border-radius: 10px;
-	margin-left: 50%;
+	margin: auto;
+	width: 200px;
 }
 .clock-time, .clock-ampm {
 	font-size: 20px;
-	color: #353635;
+	color: #00ff00;
 }
 .clock-time{
 	font-size:  30px;
@@ -45,7 +48,10 @@ header {
 .music { 
 	padding-top: 1%;
 	/*padding-left: 40%; */
-	margin-left: 41%;
+	
+}
+.profile {
+	border-radius: 50%;
 }
 .logo {
 	color: #fff;
