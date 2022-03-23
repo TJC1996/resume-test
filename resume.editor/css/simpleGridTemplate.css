@@ -181,7 +181,7 @@ header {
 
 .back {
 	padding-right: 1%;
-	padding-top: 1%;
+	padding-top: 0%;
 }
 .back .btn{
 	background-color:#1D84B5;
@@ -189,7 +189,7 @@ header {
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
-	padding: 13px 30px;
+	padding: 9px 15px;
 	border-radius: 0px;
 	transition: .4s; 
 }
@@ -278,7 +278,19 @@ footer {
 @media (max-width: 320px) {
 .gallery{
 		display: inline-grid;
+		width: 100%;
 	}
+
+.back .btn {
+	width:30px;
+}
+.gd{
+	width: 90%;
+}
+.clock{
+	width: 100px;
+	margin-right: 10%;
+}
 .logo {
 	width: 100%;
 	text-align: center;
@@ -298,11 +310,11 @@ footer {
 	margin-left: 0px;
 }
 .text_column {
-	padding-left: 20px;
+	padding-left: 2px;
 }
 
 .thumbnail {
-	width: 100%;
+	width: 80%;
 }
 .column {
 	width: 100%;
@@ -318,8 +330,13 @@ footer {
 
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
+
 .gallery{
 	display: inline-grid;
+	width: 100%;
+}
+.gd{
+	width: 80%;
 }
 .logo {
 	width: 100%;
@@ -336,14 +353,14 @@ footer {
 	padding: 0;
 }
 .thumbnail {
-	width: 100%;
+	width: 85%;
 }
 .column {
 	width: 100%;
 	margin-top: 0px;
 }
 .thumbnail {
-	width: 100%;
+	width: 85%;
 }
 .text_column {
 	padding-left: 20px;
@@ -374,12 +391,12 @@ footer {
 	width: 100%;
 }
 .thumbnail {
-	width: 100%;
+	width: 90%;
 }
 .text_column {
 	width: 90%;
 	margin: 0;
-	padding: 20px;
+	padding: 0px;
 }
 .intro .column p {
 	width: 80%;
