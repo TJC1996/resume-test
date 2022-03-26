@@ -199,13 +199,14 @@ header .socialNetworkNavBar {
 	display: block;
 	margin-top: 60px;
 	clear: both;
-	margin-bottom: 15%;
+	margin-left: 10%;
 }
 header .socialNetworkNavBar .socialNetworkNav {
 	width: 60px;
 	height: 60px;
 	display: inline-block;
 	margin-right: 23px;
+	align-items: center;
 }
 /* Main content sections */
 .mainContent .section1 {
@@ -241,7 +242,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 	
 }
 .mainContent .externalResourcesNav {
-	margin-bottom: 10%;
+	margin-bottom: 1%;
 }
 .mainContent .externalResourcesNav .externalResources {
 	width: 100%;
